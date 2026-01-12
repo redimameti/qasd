@@ -1,0 +1,7 @@
+{
+  "name": "Qasd",
+  "description": "A high-performance, ADHD-friendly productivity platform based on the 12 Week Year methodology for Muslim Entrepreneurs.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
