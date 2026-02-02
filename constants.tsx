@@ -3,16 +3,16 @@ import React from 'react';
 import { LayoutDashboard, Settings, Ruler, Target, Crosshair } from 'lucide-react';
 
 export const COLORS = {
-  background: '#0B0B0B',
-  card: '#161616',
-  border: '#262626',
-  primary: '#10B981',
-  secondary: '#0EA5E9',
-  accent: '#F59E0B',
-  textMain: '#FAFAFA',
-  textMuted: '#A3A3A3',
-  error: '#EF4444',
-  success: '#10B981',
+  background: 'var(--background)',
+  card: 'var(--card)',
+  border: 'var(--border)',
+  primary: 'var(--primary)',
+  secondary: 'var(--secondary)',
+  accent: 'var(--accent)',
+  textMain: 'var(--text-main)',
+  textMuted: 'var(--text-muted)',
+  error: 'var(--error)',
+  success: 'var(--primary)',
 };
 
 export const DAYS_SHORT = ['M', 'T', 'W', 'T', 'F', 'S', 'S'];
